@@ -7,14 +7,14 @@ Correção feita em sala da atividade avaliativa aplicada como Checkpoint 2 para
 Diagrama que ilustra as principais funcionalidades do sistema.
 
 
-![Diagrama de Caso de Uso](caso_de_uso.png)
+![Diagrama de Caso de Uso](src/main/resources/caso_de_uso.png)
 
 
 ### Diagrama de Classe
 Representação gráfica das classes, métodos e atributos desenvolvidos para a solução.
 
 
-![Diagrama de Classe](diagrama_de_classe.png)
+![Diagrama de Classe](src/main/resources/diagrama_de_classe.png)
 
 
 ### [TBD] Instruções para execução do Sistema
