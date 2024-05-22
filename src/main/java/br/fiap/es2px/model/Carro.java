@@ -52,12 +52,12 @@ public class Carro extends Veiculo {
     }
 
     @Override
-    public String obterStatus() {
-         String str = super.obterStatus();
-
-         str += "\nCarro ligado: " + this.estaLigado;
+    public void obterStatus() {
+         String str;
+         super.obterStatus();
+         str = "\nCarro ligado: " + this.estaLigado;
          str += "\nAr Condicionado ligado: " + this.arCondicionado;
 
-         return str;
+        System.out.println(str);
     }
 }

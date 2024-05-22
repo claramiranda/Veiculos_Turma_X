@@ -49,14 +49,14 @@ public class Veiculo {
             }
         }
     }
-    public String obterStatus(){
+    public void obterStatus(){
         String statusAtual;
 
         statusAtual = "\n[obterStatus] " + this.modelo + " " + this.marca + "\nano: " + this.ano;
         statusAtual += "\nVelocidade atual: " + velocidadeAtual;
         statusAtual += "\nVelocidade máxima: " + velocidadeMaxima;
 
-        return statusAtual;
+        System.out.print(statusAtual);
     }
 
     //Getters e Setters
