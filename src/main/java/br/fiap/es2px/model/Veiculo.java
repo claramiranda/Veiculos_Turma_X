@@ -9,6 +9,19 @@ public class Veiculo {
     private int velocidadeAtual;
 
 
+    //CONSTRUTORES
+    public Veiculo(String marca, String modelo, int ano){
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.velocidadeAtual = 0;
+    }
+
+    public Veiculo() {
+        this.velocidadeAtual = 0;
+        //this.velocidadeMaxima = 0;
+    }
+
     //TODO desenvolver teste unitário
     public void acelerar(int incremento){
         if (incremento <= 0){
@@ -39,7 +52,7 @@ public class Veiculo {
     public String obterStatus(){
         String statusAtual;
 
-        statusAtual = this.marca + " " + this.modelo + " ano " + this.ano;
+        statusAtual = "\n[obterStatus] " + this.modelo + " " + this.marca + "\nano: " + this.ano;
         statusAtual += "\nVelocidade atual: " + velocidadeAtual;
         statusAtual += "\nVelocidade máxima: " + velocidadeMaxima;
 
